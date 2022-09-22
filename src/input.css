@@ -2,7 +2,8 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
-body{
+/* trasition */
+body {
     background: linear-gradient(51deg, #6ddf12, #067f3b, #00d58c, #009bd5, #0021d5, #8800d5, #f316d8, #f3164f, #f3be16, #bdf316);
     background-size: 2000% 2000%;
 
