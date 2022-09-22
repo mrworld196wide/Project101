@@ -30,4 +30,5 @@ body {
 
 .social-link{
     display: inline flex;
+    margin: 10px;
 }
