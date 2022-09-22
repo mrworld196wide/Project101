@@ -27,3 +27,7 @@ body {
     50%{background-position:100% 44%}
     100%{background-position:0% 57%}
 }
+
+.social-link{
+    display: inline flex;
+}
