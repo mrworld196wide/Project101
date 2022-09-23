@@ -28,7 +28,29 @@ body {
     100%{background-position:0% 57%}
 }
 
-.social-link{
+
+#social-links{
+   
+    position: relative;
+    top: 10px;
+    right: 10px;
     display: inline flex;
-    margin: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+    word-spacing: 10px;
+    
+}
+.photo
+{
+    height: 75%;
+    background-color: aliceblue;
+    border-radius: 100%;
+    
+
+    
+}
+#box-1
+{
+    display: block;
+ 
 }
