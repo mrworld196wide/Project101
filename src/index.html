@@ -5,12 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="/dist/output.css" rel="stylesheet">
-  <script src='https://kit.fontawesome.com/a076d05399.js' crossorigin='anonymous'></script>
   <title> Portfolio </title>
   <!-- CSS -->
   <link rel="stylesheet" href="input.css">
   <!-- devicons -->
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
+  <!-- font awesome -->
+  <script src="https://kit.fontawesome.com/96892ad5c1.js" crossorigin="anonymous"></script>
 
 </head>
 
@@ -19,7 +20,10 @@
   <section id="About">
     <!-- Nav bar -->
     <nav class="bg-transparent shadow-sm">
-      <div class="max-w-6xl mx-auto px-4">
+      <div class=" grid grid-cols-2 max-w-6xl mx-auto px-4">
+        <div class="justify-start">
+          <a class="text-4xl text-white px-8 py-3" href="">Aishwar Pathak</a>
+        </div>
         <div class="flex justify-end">
           <div class="flex space-x-7">
 
@@ -38,35 +42,54 @@
 
               <a href="#contact"
                 class="py-4 px-2 text-white font-semibold hover:text-green-500 transition duration-300">Contact</a>
-              <!-- <i class='fab fa-instagram' style='font-size:36px'></i>
-              <i class='fab fa-github' style='font-size:36px'></i>
-              <i class='fab fa-linkedin' style='font-size:36px'></i> -->
             </div>
           </div>
         </div>
       </div>
     </nav>
 
-    <!-- Social media links -->
-    <span>
+    <div class="grid grid-cols-2">
+      <!-- photo and social container -->
       <div
         class="py-8 px-8 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
-        <div id="social-links" class="">
-          <i class='fab fa-instagram' style='font-size:36px;color:black'></i>
-          <i class='fab fa-github' style='font-size:36px;color:black'></i>
-          <i class='fab fa-linkedin' style='font-size:36px;color:black'></i>
+        <!-- Photograph -->
+        <div>
+
+        </div>
+
+        <!-- Social media links -->
+        <div
+          class="py-8 px-8 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+
+          <div id="social-links" class="">
+            <a href="#" target="_blank"><i class="fab fa-github-square fa-3x" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-linkedin fa-3x" aria-hidden="true"></i></a>
+            <a href="#" target="_blank"><i class="fab fa-instagram fa-3x" aria-hidden="true"></i></a>
+          </div>
+
         </div>
       </div>
-    </span>
 
+      <!-- About me part -->
+      <div
+        class="py-8 px-8 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Porro quas minus sint earum in expedita voluptate
+          fuga perferendis atque! Cupiditate enim doloremque debitis, perspiciatis aut consectetur id facere eligendi
+          quia.
+          Fugit similique, eius dolore consequatur mollitia, commodi obcaecati odit minus, excepturi provident
+          asperiores pariatur molestias distinctio quo veritatis dicta odio aliquam ullam aliquid dolorum soluta magnam?
+          Culpa doloribus quibusdam consequatur.</p>
+      </div>
+
+    </div>
     <!-- Hobbies -->
-    
+
   </section>
 
   <!-- project secction -->
   <section id="projects" class="">
     <h2 class="text-8xl grid-cols-1 text-center text-white p-8" id="project_heading">Projects</h2>
-    
+
     <!-- Tech stack -->
     <div class="grid-cols-9 border-2 border-y-8 p-5 mx-5 mx-auto" id="tech_stack">
       <!-- <p class="text-6xl">Tech Stack</p> -->
@@ -91,9 +114,11 @@
 
   <!-- Contact Section -->
   <section id="contact">
-
+    <h2 class="text-8xl grid-cols-1 text-center text-white p-8" id="project_heading">Contact</h2>
   </section>
 </body>
+
+
 <!-- Javascript added -->
 <script src="app.js"></script>
 <script src="https://cdn.tailwindcss.com"></script>
