@@ -29,18 +29,7 @@ body {
 }
 
 
-#social-links{
-   
-    position: relative;
-    top: 10px;
-    right: 10px;
-    display: inline flex;
-<<<<<<< HEAD
-    margin: 10px;
-}
-
-animation
-
+/* animation */
 .square {
 	position: absolute;
 	top: 0;
@@ -138,8 +127,6 @@ animation
 	animation-duration: 11s;
 }
 
-
-
 @keyframes animate {
 
 	0% {
@@ -152,26 +139,5 @@ animation
 		transform: translateY(-1000px) rotate(720deg);
 		opacity: 0;
 		border-radius: 50%;
-	}
-
-=======
-    margin-right: 10px;
-    font-size: 20px;
-    word-spacing: 10px;
-    
-}
-.photo
-{
-    height: 75%;
-    background-color: aliceblue;
-    border-radius: 100%;
-    
-
-    
-}
-#box-1
-{
-    display: block;
- 
->>>>>>> 95cb62773db2062889f18159406000affb341037
+	}    
 }
