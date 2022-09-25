@@ -51,8 +51,8 @@
 
             <!-- Primary Navbar items -->
             <div class="hidden md:flex items-center space-x-1 text-lg ">
-              <a href="#about" class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125"
-                id="navlinks">About</a>
+              <!-- <a href="#about" class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125"
+                id="navlinks">About</a> -->
 
               <a href="#projects" class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125"
                 id="navlinks">Projects</a>
@@ -126,7 +126,7 @@
 
     <!-- project cards -->
     <div class=" grid grid-cols-3 ">
-      
+
       <!-- Project Card -->
       <div id="project_box1"
         class="mt-5 mb-5 pb-5 border-2 border-y-8 py-5 px-5 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:pt-2 sm:block sm:items-center sm:space-y-0 sm:space-x-6">
@@ -184,57 +184,62 @@
 
   <!-- Contact Section -->
   <section id="contact">
+    <!-- heading  -->
     <h2 class="text-8xl text-center text-white p-2" id="project_heading">Contact</h2>
-  </section>
-  <div class="flex w-full min-h-screen justify-center items-center">
-    <div class="bg-transparent w-full max-w-4xl p-8 rounded-xl shadow-lg text-wh">
-        
-      <DIV class="flex flex-col justify-betweenv space-y-9 text-4xl p-2"> 
-          <div?>
-              <H1 class="text-center text-white"> Contact Us </H1>
-              <p class="pt-2 text-white text-xl">  Excepturi velit deleniti suscipit tempora nobis, 
-                  consequuntur aperiam illum enim minus hic, consectetur
-              </p>
-              
+    <div class="flex w-full min-h-screen justify-center items-center">
+      <div class="bg-transparent w-full max-w-4xl p-8 rounded-xl shadow-lg text-wh">
+  
+        <div class="flex flex-col justify-betweenv space-y-9 text-4xl p-2">
+          <div>
+            <p class="pt-2 text-white text-xl"> Excepturi velit deleniti suscipit tempora nobis,
+              consequuntur aperiam illum enim minus hic, consectetur
+            </p>
           </div>
-          <div class="flex flex-col space-y-8">
-                <DIV class="inline-flex space-x-2 items-center"> 
-                    <ion-icon name="logo-whatsapp" class="text-white text-3xl"></ion-icon>
-                    <span class="text-white ">+91 7089037084</span>
-                 </DIV>
-                 <DIV class="inline-flex space-x-2 items-center"> 
-                  <ion-icon name="mail-sharp" class="text-white text-3xl"></ion-icon>
-                  <span class="text-white ">avirajaj@gmail.com</span>
-               </DIV>
-               <DIV class="inline-flex space-x-2 items-center"> 
-                    <ion-icon name="location-sharp" class="text-white text-3xl"></ion-icon>
-                    <span class="text-white ">NIIT University</span>
-             </DIV>
+  
+        </div>
+        <div class="flex flex-col space-y-8">
+          <DIV class="inline-flex space-x-2 items-center">
+            <ion-icon name="logo-whatsapp" class="text-white text-3xl"></ion-icon>
+            <span class="text-white ">+91-7089037084</span>
+          </DIV>
+          <DIV class="inline-flex space-x-2 items-center">
+            <ion-icon name="mail-sharp" class="text-white text-3xl"></ion-icon>
+            <span class="text-white ">avirajaj@gmail.com</span>
+          </DIV>
+          <DIV class="inline-flex space-x-2 items-center">
+            <ion-icon name="location-sharp" class="text-white text-3xl"></ion-icon>
+            <span class="text-white ">NIIT University</span>
+          </DIV>
+        </div>
+        <div class="space-y-4 m-5">
+          <div class="bg-transparent rounded-xl shadow-lg p-8 space-y-4">
+            <form action="" class="flex flex-col space-y-6">
+              <div>
+                <label for="" class="text-sm text-white"> Your name </label>
+                <input for="" placeholder="Your name"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-offset-black">
+              </div>
+              <div>
+                <label for="" class="text-sm text-white"> Email address </label>
+                <input for="" placeholder="Email address"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-offset-black">
+              </div>
+              <div>
+                <label for="" class="text-sm text-white"> Message </label>
+                <input for="" placeholder="message"
+                  class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-offset-black">
+              </div>
+              <button class="inline-block self-end  bg-black text-white rounded-lg px-6 py-2 text-sm hover:scale-105 transition duration-200 hover:bg-white hover:text-black">
+                Submit
+              </button>
+            </form>
           </div>
-          <div class="space-y-4 m-5">
-            <div class="bg-white rounded-xl shadow-lg p-8 space-y-4">
-                  <form action="" class="flex flex-col space-y-6">
-                      <div>
-                            <label for="" class="text-sm"> Your name </label>
-                            <input for="" placeholder="Your name" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-offset-black">
-                      </div>
-                      <div>
-                        <label for="" class="text-sm"> Email address </label>
-                        <input for="" placeholder="Email address" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-offset-black">
-                      </div>
-                      <div>
-                          <label for="" class="text-sm"> message </label>
-                          <input for="" placeholder="message" class="ring-1 ring-gray-300 w-full rounded-md px-4 py-2 outline-none focus:ring-2 focus:ring-offset-black">
-                      </div>
-                      <button class="inline-block self-end  bg-cyan-700 text-white rounded-lg px-6 py-2 uppercase text-sm">
-                        Submit
-                      </button>
-                  </form>
-            </div>
-          </div>
-      </DIV>
+        </div>
+      </div>
     </div>
-  </div>
+    </div>
+  </section>
+  
 </body>
 
 
