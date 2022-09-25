@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html class="scroll-smooth">
 
 <head>
   <meta charset="UTF-8">
@@ -17,21 +17,22 @@
 
 <body>
 
+  <!-- square animation -->
+  <!-- <ul class="square" id="sqanimate">
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+    <li></li>
+  </ul> -->
+
   <!-- about section -->
-  <section id="About">
-    <!-- square animation -->
-    <ul class="square">
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
+  <section id="about" class="h-100% w-100%">
     <!-- Nav bar -->
     <nav class="bg-transparent shadow-sm">
       <div class=" grid grid-cols-2 max-w-6xl mx-auto px-4">
@@ -48,33 +49,33 @@
 
             <!-- Primary Navbar items -->
             <div class="hidden md:flex items-center space-x-1 text-lg ">
-              <a href="#about"
-                class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125">About</a>
+              <a href="#about" class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125"
+                id="navlinks">About</a>
 
-              <a href="#project"
-                class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125">Projects</a>
+              <a href="#projects" class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125"
+                id="navlinks">Projects</a>
 
-              <a href="#contact"
-                class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125">Contact</a>
+              <a href="#contact" class="py-4 px-2 text-white font-semibold transition duration-500 hover:scale-125"
+                id="navlinks">Contact</a>
             </div>
           </div>
         </div>
       </div>
     </nav>
 
-    <div class="grid grid-cols-2 py-10">
+
+    <div class="grid grid-cols-2 py-20">
       <!-- photo and social container -->
-      <div id="box-1"
-        class="py-8 px-8 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+      <div id="box-1" class="mx-40 h-200 w-20 bg-opaq rounded-xl shadow-lg sm:block sm:items-center ">
         <!-- Photograph -->
-        <div class="photo">
-          <img src="pfp.jpg" alt="pfp"> 
+        <div class="content-center" id="photo">
+          <img src="pfp.jpg" alt="pfp">
           <br>
         </div>
 
         <!-- Social media links -->
         <div
-          class="py-8 px-8 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6">
+          class="py-8 px-8 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:py-4 sm:flex sm:items-center sm:space-y-0 sm:space-x-6 ">
 
           <div id="social-links" class="">
             <a href="#" target="_blank"><i class="fab fa-github-square fa-3x" aria-hidden="true"></i></a>
@@ -103,7 +104,7 @@
 
   <!-- project secction -->
   <section id="projects" class="">
-    <h2 class="text-8xl grid-cols-1 text-center text-white p-8" id="project_heading">Projects</h2>
+    <h2 class="text-8xl grid-cols-1 text-center text-white pb-5" id="project_heading">Projects</h2>
 
     <!-- Tech stack -->
     <div class="grid-cols-9 border-2 border-y-8 p-5 mx-5 mx-auto" id="tech_stack">
@@ -122,8 +123,60 @@
     </div>
 
     <!-- project cards -->
-    <div class="grid-cols-3">
+    <div class=" grid grid-cols-3 ">
+      
+      <!-- Project Card -->
+      <div id="project_box1"
+        class="mt-5 mb-5 pb-5 border-2 border-y-8 py-5 px-5 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:pt-2 sm:block sm:items-center sm:space-y-0 sm:space-x-6">
+        <!-- Project Name -->
+        <h3 id="project_name" class="mt-1 mb-3 text-4xl text-white text-center">Project 1</h3>
+        <!-- Project Info -->
+        <p id="projectinfo" class="text-white text-xl mx-3">Lorem ipsum dolor, sit
+          amet consectetur adipisicing elit.
+          Excepturi velit deleniti suscipit tempora nobis, consequuntur aperiam illum enim minus hic, consectetur
+          minima, fugit incidunt odit dolores reprehenderit neque inventore soluta?</p>
+        <!-- button  -->
+        <div>
+          <button
+            class="justify-center mt-5 mx-3 text-black bg-white text-xl font-bold px-20 py-3 rounded-xl hover:scale-105 transition duration-200 hover:bg-black hover:text-white align-baseline"><span
+              class=""><a href="#projects" class="projectlink1">To be linked</a></span></button>
+        </div>
+      </div>
 
+      <!-- Project Card -->
+      <div id="project_box2"
+        class="mt-5 mb-5 pb-5 border-2 border-y-8 py-5 px-5 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:pt-2 sm:block sm:items-center sm:space-y-0 sm:space-x-6 ">
+        <!-- Project Name -->
+        <h3 id="project_name" class="mt-1 mb-3 text-4xl text-white text-center">Project 2</h3>
+        <!-- Project Info -->
+        <p id="projectinfo" class="text-white text-xl mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Excepturi velit deleniti suscipit tempora nobis, consequuntur aperiam illum enim minus hic, consectetur
+          minima, fugit incidunt odit dolores reprehenderit neque inventore soluta?</p>
+        <!-- button  -->
+        <div>
+          <button
+            class="justify-center mt-5 mx-3 text-black bg-white text-xl font-bold px-20 py-3 rounded-xl hover:scale-105 transition duration-200 hover:bg-black hover:text-white align-baseline"><span
+              class=""><a href="#projects" class="projectlink2">To be linked</a></span></button>
+        </div>
+
+      </div>
+
+      <!-- Project Card -->
+      <div id="project_box3"
+        class="mt-5 mb-5 pb-5 border-2 border-y-8 py-5 px-5 max-w-sm mx-auto bg-opaq rounded-xl shadow-lg space-y-2 sm:pt-2 sm:block sm:items-center sm:space-y-0 sm:space-x-6 ">
+        <!-- Project Name -->
+        <h3 id="project_name" class="mt-1 mb-3 text-4xl text-white text-center">Project 3</h3>
+        <!-- Project Info -->
+        <p id="projectinfo" class="text-white text-xl mx-3">Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+          Excepturi velit deleniti suscipit tempora nobis, consequuntur aperiam illum enim minus hic, consectetur
+          minima, fugit incidunt odit dolores reprehenderit neque inventore soluta?</p>
+        <!-- button  -->
+        <div>
+          <button
+            class="justify-center mt-5 mx-3 text-black bg-white text-xl font-bold px-20 py-3 rounded-xl hover:scale-105 transition duration-200 hover:bg-black hover:text-white align-baseline"><span
+              class=""><a href="#projects" class="projectlink3">To be linked</a></span></button>
+        </div>
+      </div>
     </div>
   </section>
 

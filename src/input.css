@@ -2,6 +2,18 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+/* about tag height and width */
+/* These sections take up the entire width and height of the viewport (visible area of the browser window). */
+#about{
+	height: 100vh;
+}
+#projects{
+	height: 100vh;	
+}
+#contact{
+	height: 100vh;	
+} 
+
 /* trasition */
 body {
     background: linear-gradient(51deg, #6ddf12, #067f3b, #00d58c, #009bd5, #0021d5, #8800d5, #f316d8, #f3164f, #f3be16, #bdf316);
@@ -141,3 +153,7 @@ body {
 		border-radius: 50%;
 	}    
 }
+
+
+
+
