@@ -153,7 +153,11 @@ body {
 		border-radius: 50%;
 	}    
 }
-
+@media only screen and (max-width: 620px) {
+	/* For mobile phones: */
+	#project_box1, #project_box2, #project_box3 {
+	  width: 100%;
+	
 
 
 
